@@ -1,0 +1,6 @@
+shouldCalculateForRegisteredAndUnderLimit, 16_666_60, true, 499
+shouldCalculateForRegisteredAndOverLimit, 16_700_00, true, 500
+shouldCalculateForRegisteredAndEqualLimit, 16_666_67, true, 500
+shouldCalculateForNotRegisteredAndUnderLimit, 49_900_00, false, 499
+shouldCalculateForNotRegisteredAndOverLimit, 50_100_00, false, 500
+shouldCalculateForNotRegisteredAndEqualLimit, 50_000_00, false, 500
